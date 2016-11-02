@@ -1,0 +1,11 @@
+body {
+	background-color: lightgray;
+}
+
+header {
+	width: 100%;
+}
+
+#profilepic {
+	width: 200px;
+}
