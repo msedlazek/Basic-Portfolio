@@ -52,11 +52,16 @@ section {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: left;
 	width: 650px;
+	height: ;
 	background-color: white;
+	border-style: solid;
+	border-color: #dddddd;
+	border-size: 2px;
 	margin-bottom: 50px;
 	margin-right: 50px;
 	margin-left: 441px;
 	padding: 25px;
+	padding-bottom: 0;
 }
 
 h2 {
@@ -82,6 +87,9 @@ aside {
 	float: left;
 	background-color: white;
 	width: 270px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-size: 2px;
 	padding: 26px;
 	padding-left: 40px;
 }
@@ -95,16 +103,34 @@ footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	clear: both;
 	color: #ffffff;
+	text-align: center;
 	background-color: #666666;
 	height: 50px;
 	width: 100%;
+	padding-top: 34px;
 	border: 0;
-	border-top: 10px;
+	border-top: 8px;
 	border-style: solid;
 	border-color: #4aaaa5;
 	margin-top: 20px;
+	margin-bottom: auto 0;
+	position: absolute;
+	bottom: 0%;
 }
 
+.pagewrap {
+	min-height: 100%;
+	margin-bottom: 50px;
+}
+
+.pagewrap:after {
+	content: "";
+	display: block;
+}
+
+.pagewrap, footer {
+	height: 50px;
+}
 
 .namefield {
 	width: 100%;
