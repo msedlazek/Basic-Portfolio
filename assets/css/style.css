@@ -155,6 +155,7 @@ footer {
 /*For connecting links on all pages.*/
 #contactlink {
 	width: 30%;
+	margin: 2px;
 }
 
 /*This is for the main section of the Portfolio Page*/
@@ -167,7 +168,7 @@ footer {
 .row2 {
 	float: left;
 	width: 50%;
-	padding-top: 57px;
+	padding-top: 66px;
 }
 
 #hangman {
